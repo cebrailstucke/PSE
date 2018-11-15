@@ -8,6 +8,7 @@
 *
 *@ensures MIN_INT <= (value of the variables and the results) <= MAX_INT
 *@requires variables are integers
+*@invariant initialized a, b, length and width
 */
 class Calculator{
 
@@ -25,6 +26,7 @@ class Calculator{
  }
  /**
  *The command getDiv divides your selected variables and will return the result as an integer
+ *unattached a rest is left over
  */
  Integer getDiv(Integer a, Integer b){
   return a / b;
