@@ -5,6 +5,8 @@
 *
 *@author Cao Tu Vu 3389456
 *@author Cebrail Stucke 3391486
+*
+*@requires variables are integers
 */
 class Calculator{
 
