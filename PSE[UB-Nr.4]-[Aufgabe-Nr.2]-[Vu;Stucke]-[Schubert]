@@ -1,5 +1,7 @@
 //*
+*This program is used to add, multiply and divide two variables.
 *
+*With this program, you can add, multiply and divide any two variables. At the end, the output value is an integer.
 */
 class Calculator{
 
