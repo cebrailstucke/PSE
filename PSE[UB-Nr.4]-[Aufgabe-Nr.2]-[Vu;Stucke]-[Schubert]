@@ -1,0 +1,9 @@
+//*
+*
+*/
+class Calculator{
+
+Integer getSum(Integer a, Integer b) {
+return a+ b;
+ }
+}
