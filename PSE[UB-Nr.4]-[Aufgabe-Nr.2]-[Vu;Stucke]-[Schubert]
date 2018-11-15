@@ -2,9 +2,9 @@
 *This program is used to add, multiply and divide two variables.
 *
 *With this program, you can add, multiply and divide any two variables. At the end, the output value is an integer.
-*
-*@author Cao Tu Vu 3389456
-*@author Cebrail Stucke 3391486
+*@ensures MIN_INT <= value of the variables and the result <= MAX_INT
+*@author Cao Tu Vu       Matrikelnr.:3389456
+*@author Cebrail Stucke  Matrikelnr.:3391486
 */
 class Calculator{
 
@@ -22,12 +22,14 @@ class Calculator{
  }
  /**
  *The command getDiv divides your selected variables and will return the result as an integer
+ *unattached a rest is left over
  */
  Integer getDiv(Integer a, Integer b){
   return a / b;
  }
  /**
- *Calculate the area of a rectangle while multiplying the value of the length and width returns an Integer
+ *Calculate the area of a rectangle while multiplying the value of the length and width 
+ *returns an Integer
  */
  Integer getArea(Integer length, Integer width){
   return length * width;
