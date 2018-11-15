@@ -5,7 +5,15 @@
 */
 class Calculator{
 
-Integer getSum(Integer a, Integer b) {
-return a+ b;
+ Integer getSum(Integer a, Integer b) {
+  return a + b;
  }
-}
+ Integer getMul(Integer a, Integer b){
+  return a * b;
+ }
+ Integer getDiv(Integer a, Integer b){
+  return a / b;
+ }
+ Integer getArea(Integer length, Integer width){
+  return length * widht;
+ }
