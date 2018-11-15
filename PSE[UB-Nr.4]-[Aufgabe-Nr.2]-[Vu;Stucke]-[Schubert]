@@ -20,9 +20,15 @@ class Calculator{
  Integer getMul(Integer a, Integer b){
   return a * b;
  }
+ /**
+ *The command getDiv divides your selected variables and will return the result as an integer
+ */
  Integer getDiv(Integer a, Integer b){
   return a / b;
  }
+ /**
+ *Calculate the area of a rectangle while multiplying the value of the length and width returns an Integer
+ */
  Integer getArea(Integer length, Integer width){
   return length * width;
  }
