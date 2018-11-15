@@ -6,6 +6,7 @@
 *@author Cao Tu Vu 3389456
 *@author Cebrail Stucke 3391486
 *
+*@ensures MIN_INT <= (value of the variables and the results) <= MAX_INT
 *@requires variables are integers
 */
 class Calculator{
