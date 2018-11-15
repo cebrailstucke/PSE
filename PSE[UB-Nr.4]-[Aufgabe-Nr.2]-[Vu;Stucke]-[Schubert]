@@ -1,19 +1,26 @@
 //*
-*This program is used to add, multiply and divide two variables.
+*The class "Calculator" is able to add, multiply and divide two variables.
 *
 *With this program, you can add, multiply and divide any two variables. At the end, the output value is an integer.
+*
 */
 class Calculator{
-
+//*
+*Initialized Variable a and b
+*Adds a with b and returns an Integer
+*/
  Integer getSum(Integer a, Integer b) {
   return a + b;
  }
+ //Multiplies a with b and returns an Integer
  Integer getMul(Integer a, Integer b){
   return a * b;
+  //Divides a with b and returns an Integer
  }
  Integer getDiv(Integer a, Integer b){
   return a / b;
  }
+ //Calculate the area of a rectangle while multiplying the value of the length and width returns an Integer
  Integer getArea(Integer length, Integer width){
-  return length * widht;
+  return length * width;
  }
